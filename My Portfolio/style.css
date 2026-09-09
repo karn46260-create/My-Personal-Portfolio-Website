@@ -1,3 +1,5 @@
+
+
 /*body*/
 body {
   margin: 0;
@@ -155,3 +157,28 @@ footer {
     margin: 50px;
     
 }
+
+@media (max-width: 768px) {
+  #home-text {
+    flex-direction: column;
+    align-items: center;
+}
+  #hero {
+    width: 100%;
+    text-align: center;
+  }
+
+  #img-div {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #home-image img {
+    max-width: 90%;
+    height: auto;
+  }
+  #navbar {
+     flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+  
